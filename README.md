@@ -7,5 +7,5 @@ I've been writing various automation scripts ever since I picked up Python back 
 
 jersutils is the first package I made. I intend to include all finance and crypto/web3 related functions that I write here.
 
-#### Notable libraries I used / learned for this project:
+#### Notable libraries used / learned for this project:
 - [requests](https://pypi.org/project/requests/)
