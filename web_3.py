@@ -65,7 +65,7 @@ def get_eth_balances(ETHERSCAN_API_KEY, *eth_addresses):
 	eth_balances = {}
 	eth_addresses = ','.join(eth_addresses)
 
-	etherscan_url = "https://api.etherscan.io/api"
+	etherscan_url = "https://api.etherscan.io/v2/api?chainid=1"
 	params = dict(
 		module='account',
 		action='balancemulti',
